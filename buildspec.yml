@@ -16,8 +16,9 @@ phases:
       - echo Building...
       - echo Build started on `date`
       - git clone https://github.com/TESU0703793/hugo-on-aws.git #clone hugo-on-aws repo
-      - #hugo
-      - #hugo deploy
+      - cd ./quickstart
+      - hugo
+      - hugo deploy
   post_build:
     commands:
       - echo Build finished on `date`
