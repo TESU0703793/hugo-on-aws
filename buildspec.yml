@@ -16,8 +16,7 @@ phases:
       - echo Building...
       - echo Build started on `date`
       - git clone https://github.com/TESU0703793/hugo-on-aws.git #clone hugo-on-aws repo
-      - mv ./hugo-on-aws/quickstart/ ~/environment/
-      - cd /quickstart/
+      - cd hugo-on-aws/quickstart/
       - hugo
       - hugo deploy
   post_build:
