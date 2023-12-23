@@ -18,6 +18,7 @@ phases:
       - https://github.com/TESU0703793/hugo-on-aws.git #clone hugo
       - hugo
       - hugo deploy
+      - # just forcing a change
   post_build:
     commands:
       - echo Build finished on `date`
