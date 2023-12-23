@@ -8,7 +8,7 @@ phases:
       - tar -xzvf hugo_0.120.0_Linux-64bit.tar.gz #extracts gzipped archive file
       - mkdir -p ~/bin #make bin directory for hugo
       - mv hugo ~/bin/
-  post_install:
+  pre_build:
     commands:
       - echo Installation done on `date`
   build:
