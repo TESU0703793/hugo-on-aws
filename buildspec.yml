@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Building...
       - echo Build started on `date`
-      - git clone https://github.com/TESU0703793/hugo-on-aws.git #clone hugo-on-aws repo
+      - git clone --recurse-submodules https://github.com/TESU0703793/hugo-on-aws.git #clone hugo-on-aws repo
       - cd hugo-on-aws/quickstart/
       - hugo
       - hugo deploy
