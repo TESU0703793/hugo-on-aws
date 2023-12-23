@@ -1,7 +1,6 @@
 baseURL = 'http://hugo-s3-bucket.s3-website-us-west-1.amazonaws.com/'
 languageCode = 'en-us'
-title = 'Paul Tatum'
-subtitle = 'CLD-4300 Final Project'
+title = 'CLD-4300 Final Project - Paul Tatum'
 theme = 'ananke'
 [[deployment.targets]]
 # Some name
