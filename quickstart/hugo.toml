@@ -1,0 +1,8 @@
+baseURL = 'http://hugo-s3-bucket.s3-website-us-west-1.amazonaws.com/'
+languageCode = 'en-us'
+title = 'CLD-4300 Final Project'
+theme = 'ananke'
+[[deployment.targets]]
+# Some name
+name = 'awsbucket'
+URL = 's3://hugo-s3-bucket/?region=us-west-1'
